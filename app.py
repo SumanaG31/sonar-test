@@ -1,1 +1,1 @@
-print('Welcome to SonarQube Demo Project ') 
+print('Welcome to SonarQube Demo Project !') 
