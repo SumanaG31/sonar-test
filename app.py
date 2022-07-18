@@ -1,5 +1,6 @@
 print('Welcome to SonarQube Demo Project !') 
 
+#Bug - Type: Blocker
 def func(a, b, c):
     return a * b * c
 
