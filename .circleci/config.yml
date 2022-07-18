@@ -35,11 +35,10 @@ commands:
           command: |
               export SONAR_SCANNER_OPTS="-Xmx4096m"
               eval ./sonar-scanner-4.2.0.1873/bin/sonar-scanner \
-              -Dsonar.projectKey=SumanaG31_sonar-test \
+              -Dsonar.projectKey=sonar-circleci \
               -Dsonar.host.url=http://52.214.33.62:9000 \
-              -Dsonar.sources=/\
-              -Dsonar.login=sqp_5a044a0b6a176ac928571a843c29572100fb9ed9 \
-              -X 
+              -Dsonar.sources=. \
+              -Dsonar.login=sqp_5a044a0b6a176ac928571a843c29572100fb9ed9
 
 jobs:
   check-code-job:
