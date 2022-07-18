@@ -32,7 +32,7 @@ commands:
         - run:
             name: Run Sonarscanner
             command: |
-                export SONAR_SCANNER_OPTS="-Xmx2048m"
+                export SONAR_SCANNER_OPTS="-Xmx4096m"
                 eval ./sonar-scanner-4.2.0.1873/bin/sonar-scanner \
                 -Dsonar.projectKey=SumanaG31_sonar-test \
                 -Dsonar.host.url=http://52.214.33.62:9000 \
